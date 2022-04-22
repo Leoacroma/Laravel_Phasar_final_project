@@ -1,0 +1,111 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container-field {
+    background-color: #C3986B;
+    height: 960px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* @img */
+
+.img {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0%;
+    padding: 0%;
+}
+
+.img img {
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 540px;
+}
+
+.img .Img-break {
+    position: absolute;
+    left: -60px;
+    top: -481px;
+    width: 500px;
+    height: 500px;
+}
+
+
+/* @Form */
+
+.form {
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0%;
+}
+
+.form-style {
+    background-color: white;
+    height: 700px;
+    width: 600px;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#register-form {
+    display: none;
+}
+
+hr {
+    margin-top: -40px;
+    margin-bottom: 80px;
+    margin-left: 150px;
+}
+
+.form-style h2 {
+    padding: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Sitka Subheading;
+}
+
+.form-control {
+    width: 400px;
+}
+
+.btn-sb {
+    margin-left: 332px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.Register-lnk {
+    margin-left: 106px;
+}
+
+
+/* Vetical-LIne */
+
+.d-flex {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+}
+
+.V2 {
+    position: absolute;
+    top: 292px;
+    left: 20px;
+}
+
+.V3 {
+    position: absolute;
+    top: 540px;
+    left: 20px;
+}

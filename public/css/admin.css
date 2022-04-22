@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.left-content {
+    height: 1080px;
+    background-color: rgb(126, 124, 124);
+    position: fixed;
+    overflow: hidden;
+}
+
+.right-content {
+    height: 1080px;
+    position: absolute;
+    right: 0px;
+}
+
+.logo {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+}
+
+.logo a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 32px;
+    color: rgb(255, 178, 34);
+    border: 3px solid white;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 251, 251);
+}
+
+.menu-lists {
+    height: 1000px;
+}
+
+.top-content {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.buttom-content {
+    background-color: white;
+    height: 1000px;
+    padding: 20px 40px;
+}
+
+.profile {
+    /* background-color: rgb(255, 255, 255); */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-user-circle {
+    font-size: 38px;
+}
+
+.infor {
+    height: 50px;
+}
+
+.infor h4 {
+    font-weight: bold;
+}
+
+.infor p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.menu-links {
+    list-style: none;
+}
+
+.menu-links li {
+    /* background-color: rgb(255, 161, 47); */
+    background-color: white;
+    margin-top: 5px;
+    margin-left: -40px;
+    font-size: 14px;
+    padding: 10px 40px;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.menu-links li:hover {
+    border: 2px solid red;
+}
+
+.menu-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.exit {
+    position: absolute;
+    bottom: 350px;
+}
+
+.order {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 1px rgba(201, 201, 201, 0.437);
+}
+
+.stock {
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 8px 1px rgba(201, 201, 201, 0.437);
+    border-radius: 10px;
+}
+
+.income {
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 8px 1px rgba(201, 201, 201, 0.437);
+    border-radius: 10px;
+}
+
+.form {
+    padding: 20px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 1px 1px 8px 1px rgba(201, 201, 201, 0.437);
+    position: fixed;
+    z-index: 20;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+    display: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
